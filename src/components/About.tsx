@@ -19,7 +19,7 @@ const About: React.FC = () => {
           <div className="flex flex-col items-center lg:items-start">
             <div className="w-64 h-64 rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/src/components/raji_pic.jpg"
+                src="/public/raji_pic.jpg"
                 alt="Rajalakshmi J - Full Stack Developer"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
