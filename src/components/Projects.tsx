@@ -4,11 +4,27 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: "Voice Assisted Shopping App",
+      description: "Designed a mobile app enabling An accessible voice-driven e-commerce platform for visually impaired users, integrating Google Gemini API for product search, cart management, and checkout, eliminating the need for visual interaction entirely",
+      technologies: ["Next.js", "MongoDB", "Gemini API"],
+      demoLink: "#",
+      githubLink: "https://github.com/rajiiii87/Visual",
+      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+    },
+    {
       title: "Direct Market Access For Farmers",
       description: "Designed a mobile app enabling farmers to sell products at fair prices, improving income transparency and connecting them directly with consumers.",
       technologies: ["Flutter", "Node.js", "PostMan", "MongoDB"],
-      demoLink: "https://shorturl.at/Mm9Lv",
+      demoLink: "https://www.figma.com/proto/UVejElj4Wo4sgvEBhZ60vs/Untitled?node-id=18-88&starting-point-node-id=18%3A88&t=EsE899AxgcC2lLjS-1",
       githubLink: "#",
+      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+    },
+    {
+      title: "Billing Management System",
+      description: "Built a real-time billing system for a retail client, featuring dynamic invoice generation, itemised billing, and printable receipt output. Responsive dashboards for tracking customer transactions and outstanding balances, reducing manual billing effort and eliminating paperwork errors for the client.",
+      technologies: ["HTML","CSS","JavaScript", "Node.js", "Express" , "MongoDB"],
+      demoLink: "#",
+      githubLink: "https://github.com/rajiiii87/Nagamani",
       image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
     },
     {
@@ -16,7 +32,7 @@ const Projects: React.FC = () => {
       description: "Developed a comprehensive event booking platform with booking management system, email notifications, and real-time availability updates.",
       technologies: ["HTML","CSS","JavaScript", "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/rajiiii87/VPT",
       image: "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
     },
     {
@@ -24,9 +40,18 @@ const Projects: React.FC = () => {
       description: "Built a drag-and-drop task tracker with role-based access control, real-time task management, and collaborative features for team productivity.",
       technologies: ["HTML", "CSS","Javascript",  "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/rajiiii87/task-tracker",
       image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+    },
+    {
+      title: "Food Delivery App UI/UX Design",
+      description: "Designed a mobile app enabling a modern and user-friendly food delivery app UI/UX in Figma with a seamless ordering experience",
+      technologies: ["Figma", "UI/UX Design", "Prototyping"],
+      demoLink: "https://www.figma.com/proto/Zm8tCvvaAfpXFPV06zoTI0/Untitled?node-id=63-19&starting-point-node-id=63%3A19&t=o9Jmz6TWeLbiHqpE-1",
+      githubLink: "https://github.com/rajiiii87/blog",
+      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
     }
+
   ];
 
   return (
