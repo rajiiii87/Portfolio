@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       technologies: ["Next.js", "MongoDB", "Gemini API"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/Visual",
-      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+      image: "/public/Shopping.jpg"
     },
     {
       title: "Direct Market Access For Farmers",
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       technologies: ["Flutter", "Node.js", "PostMan", "MongoDB"],
       demoLink: "https://www.figma.com/proto/UVejElj4Wo4sgvEBhZ60vs/Untitled?node-id=18-88&starting-point-node-id=18%3A88&t=EsE899AxgcC2lLjS-1",
       githubLink: "#",
-      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+      image: "/public/Agri.jpg"
     },
     {
       title: "Billing Management System",
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       technologies: ["HTML","CSS","JavaScript", "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/Nagamani",
-      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+      image: "/public/Billing.jpg"
     },
     {
       title: "Event Booking Website",
@@ -41,15 +41,23 @@ const Projects: React.FC = () => {
       technologies: ["HTML", "CSS","Javascript",  "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/task-tracker",
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+      image: "/public/Task.jpg"
+    },
+    {
+      title: "Blog Website",
+      description: "Designed a modern and user-friendly blog website with responsive design and easy content management.",
+      technologies: ["React.js",  "Node.js", "Express" , "MongoDB"],
+      demoLink: "#",
+      githubLink: "https://github.com/rajiiii87/blog",
+      image: "/public/Blog.jpg"
     },
     {
       title: "Food Delivery App UI/UX Design",
       description: "Designed a mobile app enabling a modern and user-friendly food delivery app UI/UX in Figma with a seamless ordering experience",
       technologies: ["Figma", "UI/UX Design", "Prototyping"],
       demoLink: "https://www.figma.com/proto/Zm8tCvvaAfpXFPV06zoTI0/Untitled?node-id=63-19&starting-point-node-id=63%3A19&t=o9Jmz6TWeLbiHqpE-1",
-      githubLink: "https://github.com/rajiiii87/blog",
-      image: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+      githubLink: "#",
+      image: "/public/Food.jpg"
     }
 
   ];
