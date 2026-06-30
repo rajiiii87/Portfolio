@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       technologies: ["Next.js", "MongoDB", "Gemini API"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/Visual",
-      image: "/public/Shopping.jpg"
+      image: "/Shopping.jpg"
     },
     {
       title: "Direct Market Access For Farmers",
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       technologies: ["Flutter", "Node.js", "PostMan", "MongoDB"],
       demoLink: "https://www.figma.com/proto/UVejElj4Wo4sgvEBhZ60vs/Untitled?node-id=18-88&starting-point-node-id=18%3A88&t=EsE899AxgcC2lLjS-1",
       githubLink: "#",
-      image: "/public/Agri.jpg"
+      image: "/Agri.jpg"
     },
     {
       title: "Billing Management System",
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       technologies: ["HTML","CSS","JavaScript", "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/Nagamani",
-      image: "/public/Billing.jpg"
+      image: "/Billing.jpg"
     },
     {
       title: "Event Booking Website",
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
       technologies: ["HTML", "CSS","Javascript",  "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/task-tracker",
-      image: "/public/Task.jpg"
+      image: "/Task.jpg"
     },
     {
       title: "Blog Website",
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
       technologies: ["React.js",  "Node.js", "Express" , "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/blog",
-      image: "/public/Blog.jpg"
+      image: "/Blog.jpg"
     },
     {
       title: "Food Delivery App UI/UX Design",
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
       technologies: ["Figma", "UI/UX Design", "Prototyping"],
       demoLink: "https://www.figma.com/proto/Zm8tCvvaAfpXFPV06zoTI0/Untitled?node-id=63-19&starting-point-node-id=63%3A19&t=o9Jmz6TWeLbiHqpE-1",
       githubLink: "#",
-      image: "/public/Food.jpg"
+      image: "/Food.jpg"
     }
 
   ];
