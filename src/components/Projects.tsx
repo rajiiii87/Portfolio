@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       technologies: ["Next.js", "MongoDB", "Gemini API"],
       demoLink: "#",
       githubLink: "https://github.com/rajiiii87/Visual",
-      image: "/Shopping.jpg"
+      image: "/shopping.jpg"
     },
     {
       title: "Direct Market Access For Farmers",
